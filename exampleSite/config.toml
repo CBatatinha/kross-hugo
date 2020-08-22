@@ -29,7 +29,7 @@ google_analytics_id = ""
 home = "Home"
 logo = "images/batata_nome_true.png"
 phone = "+880 2544 658 256"
-theme_color = "#c80004"
+theme_color = "#F5F5F5"
 [params.contact]
 enable = true
 form_action = "#"
