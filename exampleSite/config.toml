@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "http://potatostats.netlify.app"
+baseURL = "https://potatostats.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
