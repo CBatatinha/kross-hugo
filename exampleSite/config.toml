@@ -27,7 +27,7 @@ description = "This is meta description"
 email = "steve.fruits@email.com"
 google_analytics_id = ""
 home = "Home"
-logo = ""
+logo = "/images/batata_nome-1.png"
 phone = "+880 2544 658 256"
 theme_color = "#c80004"
 [params.contact]
