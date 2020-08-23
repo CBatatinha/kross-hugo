@@ -19,7 +19,7 @@ sections:
   label: Project
   create: documents
   match: "**/*"
-  new_doc_ext: '.md'
+  new_doc_ext: md
   templates:
   - project
 - type: directory

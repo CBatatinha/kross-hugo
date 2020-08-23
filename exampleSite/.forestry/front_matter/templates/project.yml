@@ -31,3 +31,5 @@ fields:
   name: draft
   label: draft
   description: draft
+pages:
+- exampleSite/content/portfolio/potato-test.md
