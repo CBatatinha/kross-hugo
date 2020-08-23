@@ -2,19 +2,23 @@ baseURL = "https://potatostats.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "Kross"
+title = "Potato Stats"
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 4
+URL = "about"
+name = "About"
+weight = 1
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 2
 [[menu.main]]
 URL = "portfolio"
 name = "Portfolio"
 weight = 3
 [[menu.main]]
-URL = "about"
-name = "About"
-weight = 1
+URL = "contact"
+name = "Contact"
+weight = 4
 [params]
 address = "125/A, CA Commercial Area, California, USA"
 author = "Caio Batatinha"
