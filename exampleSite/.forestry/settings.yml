@@ -15,6 +15,14 @@ sections:
   templates:
   - post
 - type: directory
+  path: exampleSite/content/portfolio
+  label: Project
+  create: documents
+  match: "**/*"
+  new_doc_ext: '.md'
+  templates:
+  - project
+- type: directory
   path: exampleSite/content/french/blog
   label: Post (fr)
   create: documents
