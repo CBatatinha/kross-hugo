@@ -28,5 +28,5 @@ fields:
   description: Project Url
 - type: boolean
   name: draft
-  label: draft 
+  label: draft
   description: draft
