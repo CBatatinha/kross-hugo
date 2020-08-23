@@ -21,7 +21,7 @@
                 placeholder="Type Message Here"></textarea>
             </div>
             <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">send</button>
+              <button class="btn btn-secondary w-100">send</button>
             </div>
           </form>
         </div>
@@ -36,19 +36,29 @@
 <footer class="bg-dark footer-section">
   <div class="section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{site.Params.email}}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{site.Params.phone}}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{site.Params.address}}</p>
-        </div>
+      <div class="row text-center">
+        {{ $quantity := site.Params.show_email }}
+        {{ $quantity := add $quantity site.Params.show_phone }}
+        {{ $quantity := add $quantity site.Params.show_address }}
+        {{ $quantity := div 12 $quantity }}
+        {{ if site.Params.show_email }}
+          <div class="col-md-{{ $quantity }}">
+            <h5 class="text-light">Email</h5>
+            <p class="text-light paragraph-lg font-secondary">{{site.Params.email}}</p>
+          </div>
+        {{ end }}
+        {{ if site.Params.show_phone }}
+          <div class="col-md-{{ $quantity }}">
+            <h5 class="text-light">Phone</h5>
+            <p class="text-light paragraph-lg font-secondary">{{site.Params.phone}}</p>
+          </div>
+        {{ end }}
+        {{ if site.Params.show_address }}
+          <div class="col-md-{{ $quantity }}">
+            <h5 class="text-light">Address</h5>
+            <p class="text-light paragraph-lg font-secondary">{{site.Params.address}}</p>
+          </div>
+        {{ end }}
       </div>
     </div>
   </div>

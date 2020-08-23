@@ -140,6 +140,29 @@ h6,
   box-shadow: none !important
 }
 
+.btn-secondary {
+  background: var(--secondary-color);
+  color: #fff
+}
+
+.btn-secondary.active {
+  opacity: .8;
+}
+
+.btn-secondary:active {
+  background: var(--secondary-color) !important
+}
+
+.btn-secondary:hover {
+  background: var(--secondary-color)
+}
+
+.btn-secondary.focus,
+.btn-secondary.active {
+  background: var(--secondary-color) !important;
+  box-shadow: none !important
+}
+
 .btn-transparent {
   background: transparent;
   color: var(--primary-color);
@@ -451,16 +474,16 @@ textarea.form-control {
 }
 
 .navbar .nav-item.active .nav-link{
-  color: #52f8f4;
+  color: rgba(0,0,0,.7);
 }
 
-.navbar-dark .navbar-nav .nav-link {
+/* .navbar-dark .navbar-nav .nav-link {
   color: #000000;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #000000;
-}
+} */
 
 .hero-area {
   padding: 250px 0 200px;
