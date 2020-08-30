@@ -6,6 +6,9 @@ fields:
 - type: text
   name: title
   label: title
+- type: tags
+  name: categories
+  label: categories
 - type: datetime
   name: date
   label: date

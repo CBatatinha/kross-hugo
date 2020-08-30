@@ -6,6 +6,7 @@ image = "/images/batata_nome-1.png"
 image_webp = "/images/batata_nome.png"
 project_url = "https://opensource.com/article/18/3/start-blog-30-minutes-hugo"
 title = "Potato Stats"
+categories = ["design","development"]
 
 +++
 # My first post

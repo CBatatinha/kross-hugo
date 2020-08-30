@@ -6,5 +6,5 @@ image = "/images/BUSTOS_THOMAS.png"
 image_webp = "/images/logo_color_1.jpg"
 project_url = "www.example.com"
 title = "Potato test"
-
+categories = ["design","development"]
 +++
