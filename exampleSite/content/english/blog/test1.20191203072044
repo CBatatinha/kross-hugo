@@ -2,7 +2,6 @@
 author = "John Doe"
 date = 2020-08-30T03:00:00Z
 description = "fake"
-draft = true
 image = "/images/batata_logo5.png"
 image_webp = "/images/logo_color_1.jpg"
 title = "test1 "
