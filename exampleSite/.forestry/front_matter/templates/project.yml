@@ -32,4 +32,5 @@ fields:
   label: draft
   description: draft
 pages:
+- exampleSite/content/portfolio/potato-stats.md
 - exampleSite/content/portfolio/potato-test.md
