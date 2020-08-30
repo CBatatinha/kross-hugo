@@ -289,6 +289,9 @@ a:hover {
 .text-primary {
   color: var(--primary-color) !important
 }
+.text-secondary {
+  color: var(--secondary-color) !important
+}
 
 .text-color {
   color: #4c4c4c

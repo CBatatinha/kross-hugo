@@ -1,7 +1,7 @@
 ---
 label: Project
 hide_body: false
-display_field: project_url
+display_field: title
 fields:
 - type: text
   name: title
@@ -17,9 +17,6 @@ fields:
   label: author
   description: 'Ex: John Doe'
 - type: file
-  name: image_webp
-  label: image webp
-- type: file
   name: image
   label: image
 - type: text
@@ -30,10 +27,6 @@ fields:
   name: project_url
   label: project url
   description: Project Url
-- type: boolean
-  name: draft
-  label: draft
-  description: draft
 pages:
 - exampleSite/content/portfolio/potato-stats.md
 - exampleSite/content/portfolio/potato-test.md
